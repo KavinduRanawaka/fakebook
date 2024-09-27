@@ -9,6 +9,7 @@
 }
 .navBarLeft{
     flex:3;
+    font-family:sans-serif;
 }
 .navBarCenter{
     flex: 5;
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: space-between;
     color: white;
+
 }
 .navBarIcons{
     display: flex;
