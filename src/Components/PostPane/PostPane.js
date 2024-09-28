@@ -1,10 +1,13 @@
 import React from 'react'
 import "./PostPane.css"
+import AddPost from "../AddPost/AddPost"
+import Post from '../Post/Post'
 
 export default function PostPane() {
   return (
     <div className='postPaneBox'>
-      <h1>PostPane</h1>
+      <AddPost/>
+      <Post/>
     </div>
   )
 }
